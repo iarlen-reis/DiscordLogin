@@ -93,6 +93,7 @@ fieldset input {
     border: none;
     border-radius: 4px;
     background: var(--background-input);
+    color: var(--text-sencudary-color);
 }
 
 form fieldset:nth-child(3) {
