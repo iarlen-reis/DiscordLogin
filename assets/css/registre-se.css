@@ -194,4 +194,30 @@ form button~a + p > a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 530px) {
+    main {
+        width: 400px;
+    }
 
+    form {
+        min-width: 300px;
+    }
+
+    form fieldset:nth-child(3) select {
+        width: 80px;
+    }
+
+    .termos label {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 430px) {
+    main {
+        width: 350px;
+    }
+
+    .termos label {
+        font-size: 8px;
+    }
+}
