@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,44 +19,54 @@
     --button-color: #5865f2;
 }
 
+section {
+    overflow: hidden;
+}
+
 .section {
-    height: 700px;
+    width: 100%;
+    height: 650px;
     overflow: hidden;
 
-    
 
 }
 
+.background__azul {
+    background: var(--background);
+    background-size: cover;
+    background-position: center center;
+}
+
 .section__home {
-    width: 100%;
     display: flex;
     justify-content: center;
-    background: var(--background);
-    overflow: hidden;
-
-
+    background-image: url(./assets/imgs/home/background-image.svg);
 
 }
 
 
 .main__content {
     margin: 0 auto;
+    width: 100%;
     max-width: 1300px;
-    overflow: hidden;
+
 
 }
 
 .aside {
     position: absolute;
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 90px;
 }
 
 .aside nav {
     display: flex;
     align-items: center;
+    width: 100%;
     height: 100%;
 
 }
@@ -99,7 +110,8 @@
     width: 68px;
     height: 40px;
     border-radius: 40px;
-    margin-left: 212px;
+    /* margin-left: 212px; */
+    margin-right: 20px;
     cursor: pointer;
     border: none;
 }
@@ -113,15 +125,45 @@
     background: var(--text-color);
 }
 
-.home__container {
+section main {
+    display: grid;
+    align-items: flex-end;
+    height: 100%;
+    max-width: 1600px; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section main .image__1, section main .image__2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+section main .image__1 img {
     position: absolute;
+    width: 689px;
+    height: 352px;
+    bottom: 0;
+    left: -300px;
+}
+
+section main .image__2 img {
+    position: absolute;
+    width: 615px;
+    height: 360px;
+    bottom: 0;
+    right: -200px;
+
+}
+
+.home__container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 190px;
-    width: 100%;
-    
+    height: 100%;
 }
 
 .home__container h1 {
@@ -131,7 +173,7 @@
     font-weight: 800;
     letter-spacing: 3px;
     text-align: center;
-
+    margin-top: 6rem;
     margin-bottom: 50px;
 
     font-family: 'Bebas Neue', cursive;
@@ -149,6 +191,10 @@
     
 }
 
+.buttons__home {
+    position: relative;
+}
+
 .buttons__home  button {
     height: 56px;
     font-size: 20px;
@@ -164,6 +210,7 @@
     border-radius: 25px;
 
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    
 }
 
 .buttons__home button:first-child {
@@ -185,30 +232,3 @@
     background-color: hsl(220,7.7%,22.9%);
     transition: all 0.5s ease-out;
 }
-
-
-.images__home {
-    position: absolute;
-    bottom: 0;
-}
-
-
-
-.image__1 {
-    position: absolute;
-    width: 689px;
-    height: 352px;
-    bottom: -120px;
-    left: -68rem;
-    overflow-x: hidden;
-}
-
-.image__2 {
-    position: absolute;
-    width: 615px;
-    height: 360px;
-    bottom: -120px;
-    right: -60rem;
-    overflow-x: hidden;
-}
-
