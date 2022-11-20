@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
     margin: 0;
@@ -349,3 +350,47 @@ section main .image__2 img {
     color: var(--background-input);
 }
 
+
+.section__info__4 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container__info__4__grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 1280px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text__4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    row-gap: 24px;
+}
+
+.text__4 h2 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    font-family: 'Anton', sans-serif;   
+
+    color: var(--background-input);
+}
+
+.text__4 p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.5px;
+
+    color: var(--background-input);
+}
+
+.container__info__4__grid img {
+    width: 100%;
+}
