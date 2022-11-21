@@ -1,11 +1,7 @@
 # Discord Front-End
 
 <h1 align="center"> Discord Front-End</h1>
-
-## Descrição do projeto
-<h2 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/imgs/githubimages/home.png">
-</h2>
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/imgs/githubimages/home.png">
 <p align="center">
 Esse projeto é um "clone" do font-end do discord, costumo utilizar bastante o discord <br>
 então pensei em "cria-lo" para praticar meus conhecimentos de front-end.
@@ -21,6 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 ## ⚙️ Funcionalidades
+
 - [x] Botão entrar e tela de login
 - [x] Botão registra-se e tela de registro
 - [ ] Responsividade
