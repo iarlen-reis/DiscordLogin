@@ -9,6 +9,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --background:#404eed;
     --background-input: #23272a;
