@@ -19,6 +19,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-<h2 id="funcionalidades">⚙️ Funcionalidades</h2>
+
+## ⚙️ Funcionalidades
 - [x] Botão entrar e tela de login
 - [x] Botão registra-se e tela de registro
+- [ ] Responsividade
