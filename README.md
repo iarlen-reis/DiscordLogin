@@ -1,5 +1,3 @@
-# Discord Front-End
-
 <h1 align="center"> Discord Front-End</h1>
 <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/imgs/githubimages/home.png">
 <p align="center">
