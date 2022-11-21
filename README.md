@@ -22,5 +22,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h2 id="funcionalidades">⚙️ Funcionalidades</h2>
 - [x] Botão entrar e tela de login
 - [x] Botão registra-se e tela de registro
-- [ ] Responsividade.
-- [ ] Botão de back-to-top no canto inferior direito da página.
