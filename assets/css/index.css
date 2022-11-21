@@ -225,6 +225,7 @@ section main .image__2 img {
 
 .buttons__home button:first-child {
     display: flex;
+    column-gap: 5px;
     width: 290px;
     background: var(--text-color);
     color: var(--background-input);
@@ -412,6 +413,7 @@ section main .image__2 img {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container__info__5 {
@@ -457,4 +459,141 @@ section main .image__2 img {
     top: -2rem;
     left: -2.5rem;
     width: 490px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 540px; 
+
+    background: var(--background-input);
+}
+
+.container__footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 1280px;
+    column-gap: 80px;
+
+    padding-bottom: 50px;
+    border-bottom: 2px solid var(--button-color);
+}
+
+.contact__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.contact__footer h4 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 30.4px;
+    text-transform: uppercase;
+    color: var(--button-color);
+
+}
+
+.contact__footer .language {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    cursor: pointer;
+
+    color: var(--text-color);
+
+}
+
+.socials__footer {
+    width: 100%;
+    display: flex;
+    column-gap: 18px;
+
+    color: var(--text-color);
+}
+
+.socials__footer svg {
+    cursor: pointer;
+}
+
+.produtos__footer,
+.empresa__footer,
+.recursos__footer,
+.politica__footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.produtos__footer h5, 
+.empresa__footer h5, 
+.recursos__footer h5,
+.politica__footer h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: var(--button-color);
+}
+
+.produtos__footer a,
+.empresa__footer a,
+.recursos__footer a,
+.politica__footer a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+
+    color: var(--text-color);
+}
+
+.produtos__footer a:hover,
+.empresa__footer a:hover,
+.recursos__footer a:hover,
+.politica__footer a:hover {
+    text-decoration: underline;
+}
+
+
+.logo__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    max-width: 1280px;
+    width: 100%;
+    height: 100px;
+}
+
+.logo__footer svg {
+    color: var(--text-color);
+}
+
+.logo__footer button {
+    cursor: pointer;
+    width: 125px;
+    height: 38px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+
+    border: none;
+    border-radius: 20px;
+
+
+    background: var(--button-color);
+    color: var(--text-color);
 }
